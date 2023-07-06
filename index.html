@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-dark p-3">
+        <div class="row mx-0 py-3 bg-light">
+            <div class="col-sm-8">
+                <p>Order #88 <small class="text-muted">Today 05 July 2023, 08:44 PM </small></p>            
+                
+                <div class="card rounded-3 mb-3">
+                    <div class="card-body">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation"> 
+                        <button class="nav-link active" id="pills-food-tab" data-bs-toggle="
+                        pill" data-bs-target="#pills-food" type="button" role="tab"
+                         aria-controls="pills-food" aria-selected="true">Equipments</button>
+                         </li>
+                    <li class="nav-item" role="presentation"> 
+                        <button class="nav-link" id="pills-drink-tab" data-bs-toggle="pill" 
+                        data-bs-target="#pills-drink" type="button" role="tab" aria-controls
+                        ="pills-drink" aria-selected="false">Swimsuits</button>
+                    </li> 
+                    </ul>
+                </div>
+                </div>
+                    <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-food" role="tabpanel" 
+                    aria-labelledby="pills-food-tab">
+
+
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                        <div class="col">
+                          <div class="card" onclick="productbasket('Pink goggles');">
+                            <img src="./images/b1.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-truncate">Pink Goggles</h5>
+                              <p class="card-text-fw-bold">P 499.00</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card"onclick="productbasket('Purple goggles');">
+                            <img src="./images/b2.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-truncate">Purple Goggles</h5>
+                              <p class="card-text"></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card"onclick="productbasket('Green goggles');">
+                            <img src="./images/b3.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-truncate">Green Goggles</h5>
+                              <p class="card-text"></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card"onclick="productbasket('Red goggles');">
+                            <img src="./images/b4.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-truncate">Red Goggles</h5>
+                              <p class="card-text"></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="row row-cols-1 row-cols-md-4 g-4">
+  <div class="col">
+    <div class="card"onclick="productbasket('Pink Mask');">
+      <img src="./images/a1.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-truncate">Pink Mask</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card"onclick="productbasket('Purple Mask');">
+      <img src="./images/a2.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Purple Mask</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card"onclick="productbasket('Green Mask');">
+      <img src="./images/a3.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-truncate">Green Mask</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card"onclick="productbasket('Glitter Mask');">
+      <img src="./images/a4.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-truncate">Glitter Mask</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+</div>
+                
+                
+                </div>
+
+                    <div class="tab-pane fade" id="pills-drink" role="tabpanel"
+                     aria-labelledby="pills-drink-tab">Swimsuit</div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-4 g-4">
+                        <div class="col">
+                          <div class="card"onclick="productbasket('1pcblue ');">
+                            <img src="./images/1pcblue.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-truncate">1pc Blue</h5>
+                              <p class="card-text"></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card"onclick="productbasket('1pcflower');">
+                            <img src="./images/1pcflower.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-truncate">1pc Flower</h5>
+                              <p class="card-text"></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card"onclick="productbasket('1pcpink');">
+                            <img src="./images/1pcpink.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-truncate">1pc Pink</h5>
+                              <p class="card-text"></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card"onclick="productbasket('1pcrainbow');">
+                            <img src="./images/1pcrainbow.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-truncate">1pc Rainbow</h5>
+                              <p class="card-text"></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="row row-cols-1 row-cols-md-4 g-4">
+  <div class="col">
+    <div class="card"onclick="productbasket('1pcStripes');">
+      <img src="./images/1pcstripes.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-truncate">1pc Stripes</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card"onclick="productbasket('1pcyellow');">
+      <img src="./images/1pcyellow.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-truncate">1pc Yellow</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card"onclick="productbasket('2pcblue');">
+      <img src="./images/2pcblue.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-truncate">2pc Blue</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card"onclick="productbasket('2pcpink');">
+      <img src="./images/2pcpink.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-truncate">2pc Pink</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+</div>
+                
+                
+                </div>    
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Purchased Items</h5>
+                    <hr>
+                    <ul id="productlist" class="list-unstyled"><img src="./images/b1.avif" style="width:50px;"/><span>pink Goggles</span><span class="text-danger">499.00</span></li>
+                    </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        function productbasket (itemname){
+        const productlist = document.getElementById('productlist');
+        // create li tag
+        const productitem = document.createElement('li');
+        
+        //create text to text node  
+        const productitemname = document.createTextNode(itemname);
+        //attach gogglesz text to li tag
+        productitem.appendChild(productitemname)
+        // attach  appEnd li tag  child to parent id=productlist
+        productlist.appendChild(productitem); 
+        }; 
+       // <li><img src="./images/b1.avif" style="width: 50px;"/><span>pink Goggles</span><span class="text-danger">499.00</span></li>
+        
+        
+    </script>
+</body>
+</html> 
